@@ -26,3 +26,7 @@ function prevSlide() {
 function nextSlide() {
     showSlide(slideIndex += 1);
 }
+
+
+
+
