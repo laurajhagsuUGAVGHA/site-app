@@ -125,6 +125,7 @@ header {
     font-family: poppins;
     text-align: center;
 }
+
 .carousel-text2 {
     position: relative;
     margin-top: -60vh;
@@ -137,12 +138,15 @@ header {
     font-family: poppins;
     text-align: center;
 }
-.texto1{
+
+.texto1 {
     font-size: 6vh;
 }
-.span{
+
+.span {
     font-size: 5vh;
 }
+
 .carousel-text3 {
     position: relative;
     margin-top: -60vh;
@@ -175,6 +179,9 @@ header {
 .next {
     right: 5px;
 }
+
+
+
 
 /* parte do texto dois titulo */
 .titulo-dois {
@@ -426,26 +433,26 @@ footer {
     text-align: center;
     align-items: center;
     flex-direction: column;
-  
+
 }
 
 a {
-    
+
     text-decoration: none;
     color: #000000;
 }
 
 
 .linha {
- width: 214vh;
+    width: 214vh;
     margin-top: 8vh;
     border: none;
     height: 2px;
     background-color: #D7D7D7;
-    
+
 }
 
-.ultimo-texto p{
+.ultimo-texto p {
     margin-top: 10vh;
     color: #8F8F8F;
 }
@@ -459,5 +466,228 @@ a {
 
 
 
-/* MOBILE */
 
+
+
+
+@media (max-width: 720px) {
+    header {
+        display: none;
+    }
+
+    .carousel {
+        margin-top: 0.1vh;
+    }
+
+    .carousel img {
+        height: 46vh;
+        max-height: 60vh;
+    }
+
+
+
+    .carousel-text3 {
+        font-size: 3vh;
+        color: #ffffff;
+        width: 57vh;
+        margin-top: -26vh;
+        line-height: 4vh;
+
+    }
+
+    .carousel-text2 {
+        font-size: 3vh;
+        color: #ffffff;
+        width: 45vh;
+        margin-top: -26vh;
+        line-height: 5vh;
+    }
+
+    .carousel-text1 {
+        font-size: 4vh;
+        color: #ffffff;
+        width: 50vh;
+        margin-top: -26vh;
+        line-height: 6vh;
+    }
+
+    .texto1 {
+        width: 20vh;
+        font-size: 4vh;
+    }
+
+    .span {
+        font-size: 3vh;
+    }
+
+    .prev,
+    .next {
+        color: #ffffff;
+        left: 30vh;
+        margin-top: -38vh;
+        display: flex;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    .prev, .next{
+        display: none;
+    }
+        
+
+    
+
+    /* FINALIZADO CARROSSEL EM CIMA */
+
+
+
+
+
+
+
+    .titulo-dois {
+        margin-top: -120vh;
+        font-size: 4vh;
+    }
+
+    .importancia {
+        font-size: 3vh;
+    }
+
+    .icones {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 20vh;
+    }
+
+    .icone2,
+    .icone3 {
+        margin-top: 10vh;
+    }
+
+    .texto {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        line-height: normal;
+    }
+
+    .container-laranja {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .imagemCrian img {
+        width: 100%;
+        height: auto;
+    }
+
+    .objetivo {
+        width: auto;
+        font-size: 3vh;
+        text-align: center;
+    }
+
+
+
+    /* parte nosso app */
+    .nossoAplicativo {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app {
+        margin: 20px 0;
+    }
+
+    .quiz,
+    .chat,
+    .concentracao,
+    .calendario {
+        width: 60%;
+        height: 30vh;
+        margin-top: 10vh;
+    }
+
+
+
+
+    /* abaixar app */
+
+    .container-verde {
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100%;
+        height: 250vh;
+
+    } 
+
+    .jogos {
+        margin-top: -25vh;
+        margin-left: 6vh;
+    }
+
+    .inicio-img{
+        margin-top: -5vh;
+    } 
+
+     .box {
+       margin-left: -17vh;
+        align-items: center;
+        text-align: center;
+        margin-top: 30vh;
+    }
+
+    .box h2 {
+        text-align: center;
+        font-size: 5vh;
+    } 
+
+    .boxJuntas {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vh;
+        
+    } 
+
+     
+
+    .rodape {
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .girassol {
+        margin-top: 30vh;
+    }
+
+    footer {
+        display: flex;
+        font-size: 2;
+        top: 8vh;
+    }
+.ultimo-texto{
+    padding: 0.75vh;
+}
+    .linha {
+        width: 67vh;
+
+        
+    } 
+}
