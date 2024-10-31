@@ -191,54 +191,85 @@
         margin-left: 700px;
     }
 
+    /*TEA*/
+    .comeco-tea {
+        margin-top: 200px;
+    }
 
+    .tea {
+        font-size: 8vh;
+        font-family: 'Poppins';
+        margin-top: -30vh;
+        margin-left: 40vh;
 
+    }
 
+    .transtorno {
+        margin-left: 25vh;
+    }
+
+    .tea-coracao {
+        width: 350px;
+        height: auto;
+        margin-left: 110vh;
+    }
+
+    /*oque é*/
+
+    .meio-pagina {
+        width: 1500px;
+        height: 500px;
+        margin-top: 300px;
+        background-color: #E8FAF0;
+    }
+    .meio-pagina h1{
+        font-family: 'Poppins';
+        font-weight: 100;
+        text-align: center;
+        align-items: center;
+        justify-content: center;     
+    }
 
     /* FOOTER */
 
-.girassol {
-    margin-top: 20VH;
-}
+    .girassol {
+        margin-top: 20VH;
+    }
 
-.rodape {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    margin-top: 7vh;
-    width: 96vh;
-    margin-left: 56vh;
-    justify-content: space-around;
-}
+    .rodape {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin-top: 7vh;
+        width: 96vh;
+        margin-left: 56vh;
+        justify-content: space-around;
+    }
 
-footer {
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+    footer {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
 
-}
+    }
 
-a {
+    a {
 
-    text-decoration: none;
-    color: #000000;
-}
-
-
-.linha {
-    width: 214vh;
-    margin-top: 8vh;
-    border: none;
-    height: 2px;
-    background-color: #D7D7D7;
-
-}
-
-.ultimo-texto p {
-    margin-top: 10vh;
-    color: #8F8F8F;
-}
+        text-decoration: none;
+        color: #000000;
+    }
 
 
+    .linha {
+        width: 214vh;
+        margin-top: 8vh;
+        border: none;
+        height: 2px;
+        background-color: #D7D7D7;
 
+    }
 
+    .ultimo-texto p {
+        margin-top: 10vh;
+        color: #8F8F8F;
+    }
